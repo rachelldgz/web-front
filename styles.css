@@ -1,5 +1,8 @@
+/* Reto 05 Cambia colores a Texto, Parrafo y Boton 
+   Fondo de pagina y Fondo de Boton */
+
 h1 {
-    color:rgb(56, 128, 223);
+    color: #025157;
 }
 h2 {
     color: blueviolet;
@@ -16,26 +19,24 @@ h5{
 h6{
     color:darkslateblue
 }
+
+
 body{
     background-color: #fffbf7;
-    background-image: url('https://image.freepik.com/vector-gratis/fondo-blanco-gris-brillante-lineas-onduladas_1017-25101.jpg');
+    /*background-image: url('https://image.freepik.com/vector-gratis/fondo-blanco-gris-brillante-lineas-onduladas_1017-25101.jpg');  */
     color:#46484c
 }
 
+
 p{
-    color:#433b57d8
-}
+    color: #8b8b8bcc
+ }
+
 button{
-    background-color: #ff3300;
-    color : #fff
+    background-color: #025157;
+
+    color : #fff;
 }
 
-footer {
-    background-color: #f7f7f7;
-    position: absolute;
-    display: inline-block;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    color: white;
-  }
+
+.imagen1 { text-align: right; }
