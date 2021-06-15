@@ -1,0 +1,31 @@
+h1 {
+    color:blue;
+}
+h2 {
+    color: blueviolet;
+}
+h3{
+    color: chocolate;
+}
+h4 {
+    color: darkgoldenrod;
+}
+h5{
+    color: darkgreen;
+}
+h6{
+    color:darkslateblue
+}
+body{
+    background-color: #fffbf7;
+    background-image: url("https://www.pngwing.com/es/search?q=metallica.jpg");
+    color:#46484c
+}
+
+p{
+    color:#8b8b8bcc
+}
+button{
+    background-color: #025157;
+    color : #fff
+}
