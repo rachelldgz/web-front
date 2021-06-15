@@ -1,5 +1,5 @@
 h1 {
-    color:blue;
+    color:rgb(56, 128, 223);
 }
 h2 {
     color: blueviolet;
@@ -18,14 +18,24 @@ h6{
 }
 body{
     background-color: #fffbf7;
-    background-image: url("https://www.pngwing.com/es/search?q=metallica.jpg");
+    background-image: url('https://image.freepik.com/vector-gratis/fondo-blanco-gris-brillante-lineas-onduladas_1017-25101.jpg');
     color:#46484c
 }
 
 p{
-    color:#8b8b8bcc
+    color:#433b57d8
 }
 button{
-    background-color: #025157;
+    background-color: #ff3300;
     color : #fff
 }
+
+footer {
+    background-color: #f7f7f7;
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+  }
