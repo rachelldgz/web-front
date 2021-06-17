@@ -27,9 +27,11 @@ h6{
     
     */
     
-    margin: 40px 20px 20px ; 
+    margin: 40px 20px 0 20px ; 
     font-size: 0;
     line-height: 45%;
+    height: 45px;
+    font-family: sans-serif;
   }
 
   .header > * {
@@ -42,7 +44,7 @@ h6{
 
   li{
       display: inline;
-      color: rgba(14, 148, 59, 0.986);
+      color:  #025157;
       padding: 8px 0 8px 16px;
       text-decoration: none;
  }
@@ -54,15 +56,43 @@ h6{
   .navbar{
       width: 70%;
       text-align: left;
-      color: green;
+      color:  #025157;
+      font-weight: 500;
   }
+
+  .menu-item {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
   .actions {
       width: 15%;
       text-align: left;
       font-size: 14px;
-      
+      font-weight: 600;
   }
 
+  .actions a {
+    color: #67b54b;
+ }
+  
+ 
+  .actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+  }
 
 
 
