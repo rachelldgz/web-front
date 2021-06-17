@@ -54,16 +54,15 @@ h6{
   }
 
   .navbar{
-      width: 70%;
-      text-align: left;
-      color:  #025157;
-      font-weight: 500;
+    width: 70%;
+    text-align: center;
+    color: #025157;
   }
 
   .menu-item {
-    display: inline;
-    margin-right: 25px;
-    margin-left: 25px;
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
   }
 
   .actions {
@@ -77,7 +76,7 @@ h6{
     color: #67b54b;
  }
   
- 
+
   .actions > * {
     margin-right: 10px;
     margin-left: 10px;
