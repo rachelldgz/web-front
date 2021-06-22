@@ -103,7 +103,9 @@ button{
 }
 
 
-.imagen1 { text-align: right; }
+.imagen1 { 
+  text-align: right;
+ }
 
 .publicidad {
   font-family: Helvetica;
