@@ -1,24 +1,6 @@
 /* Reto 05 Cambia colores a Texto, Parrafo y Boton 
    Fondo de pagina y Fondo de Boton */
 
-h1 {
-    color: #025157;
-}
-h2 {
-    color: blueviolet;
-}
-h3{
-    color: chocolate;
-}
-h4 {
-    color: darkgoldenrod;
-}
-h5{
-    color: darkgreen;
-}
-h6{
-    color:darkslateblue
-}
 
 .header {
    /* margin-top: 40px;
@@ -101,7 +83,6 @@ body{
 
     background-color: #fffbf7;
     /*background-image: url('https://image.freepik.com/vector-gratis/fondo-blanco-gris-brillante-lineas-onduladas_1017-25101.jpg');  */
-    color:#46484c
 }
 
 
@@ -118,3 +99,71 @@ button{
 
 .imagen1 { text-align: right; }
 
+.publicidad {
+  font-family: Helvetica;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: right;
+}
+
+.publicidad > h2 {
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.publicidad > p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+ 
+}
+
+.publicidad > form {
+  display: flex;
+
+}
+
+.publicidad > form p {
+  color: #025157;
+  margin-right: 18px;
+
+ }
+
+  .publicidad  img {
+    width: 120px;
+    margin-top: 10px;
+  }
+
+
+
+  .secpromo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+  }
+
+  .artvideo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 5%;
+  }
+  
+  .artvideo img {
+    width: 120px;
+    margin-top: 10px;
+  }
+
+
+  .secheader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+  }
