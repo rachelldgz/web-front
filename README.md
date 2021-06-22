@@ -15,7 +15,6 @@ git remote add origin https://github.com/rachelldgz/web-front.git
 git push -u origin master
 git push
 
-
 -------------------------------------------------------
 
 # Crear repositorio
