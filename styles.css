@@ -82,7 +82,16 @@
   }
 
 
-
+  button {
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 6px 20px;
+    margin-left: -10px;
+  }
+  
   
 body{
 
@@ -176,3 +185,143 @@ button{
     right: 0;
     background-color: #fffbf7;
   }
+
+  .secgrowing {
+    background-color: #a1d683;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .success-stories .artgrowing {
+    flex: 2;
+    padding-right: 100px;
+  }
+
+  .secgrowing .artgrowing h2 {
+    font-family: "Alegreya", serif;
+    font-size: 51px;
+    color: #025157;
+  }
+  
+  .secgrowing .artgrowing p {
+    color: #343434;
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .secgrowing .artgrowing button {
+    font-size: 16px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
+  }
+
+  .secgrowing .artgrowing img {
+    width: 80%;
+    max-width: 80%;
+    margin-left : 0;
+  }
+
+  .secgrowing .arteverly {
+    flex: 1;
+  }
+  
+  .secgrowing .arteverly {
+    margin-left: 10%;
+    float : right;
+    max-width: 550px;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+
+  }
+  
+  .secgrowing .arteverly .diveverly .img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 80%;
+    max-width: 80%;
+
+  }
+
+  .secgrowing .arteverly .diveverly .figure {
+    margin-top: 0;
+    margin-right: 10%;
+  }
+  
+  .secgrowing .arteverly .diveverly {
+    position: relative;
+    }
+
+  .secgrowing .arteverly .divlogo {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .secgrowing .arteverly .divlogo img {
+    max-width: 75%;
+  }
+
+    
+    .secgrowing .arteverly .divbody,
+    .secgrowing .arteverly .divfooter {
+      padding: 25px;
+    }
+
+    .secgrowing .arteverly .divbody h4 {
+      color: #025157;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 20px;
+      margin-bottom: 12px;
+    }
+
+    .secgrowing .arteverly .divbody h3 {
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 30px;
+      margin-bottom: 20px;
+    }
+    
+    .secgrowing .arteverly .divbody .divresults {
+      display: flex;
+      align-items: center;
+      color: #828282;
+    }
+
+    .secgrowing .arteverly .divbody .divresults img {
+      width: 26px;
+      margin-right: 20px;
+    }
+
+    .secgrowing .arteverly .divbody .divresults p {
+      margin-top: 0;
+    }
+
+    .secgrowing .arteverly .divbody .divfooter {
+      margin-bottom: 20px;
+      background-color: unset;
+      border-top: unset;
+    }
+    
+    .secgrowing .arteverly .divbody .divfooter button {
+      display: block;
+      margin-left: 0;
+      border-radius: 5px;
+      font-size: 13;
+      font-weight: 600;
+      padding: 12px 20px;
+      width: 100%;
+    }
