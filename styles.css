@@ -1,41 +1,33 @@
 /* Reto 05 Cambia colores a Texto, Parrafo y Boton 
    Fondo de pagina y Fondo de Boton */
 
-
-
    main {
     margin-top: 285px;
     text-align: center;
   }
 
-.header {
-   /* margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-    
-    */
-    
-    margin: 40px 20px 0 20px ; 
+  .header {
+    margin: 10px 20px 0 20px ; 
     font-size: 0;
     line-height: 45%;
-    height: 45px;
     font-family: sans-serif;
+  }
+
+  .secheader{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 
   .header > * {
     display: inline-block;
-   font-size: 16px;
-   vertical-align: middle;
-   height : 100%;
-   line-height: 45px;
+    font-size: 16px;
+    vertical-align: middle;
+    height : 100%;
+    line-height: 45px;
   }
-
-  li{
-      display: inline;
-      color:  #025157;
-      padding: 8px 0 8px 16px;
-      text-decoration: none;
- }
 
   .logo{
     width: 100%;
@@ -48,16 +40,14 @@
   }
 
   .menu-item {
-  display: inline;
-  margin-right: 25px;
-  margin-left: 25px;
+    display: inline;
+    margin: 0 25px 0 25px;
   }
 
   .actions {
       width: 15%;
       text-align: left;
       font-size: 14px;
-      font-weight: 600;
   }
 
   .actions a {
@@ -66,57 +56,35 @@
   
 
   .actions > * {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 0 10px 0 10px;
   }
 
   .actions button {
     color: white;
     background-color: #67b54b;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding: 12px 14px 12px 14px;
     border: 0;
     border-radius: 5px;
   }
 
 
-  button {
-    background-color: #025157;
-    color: #fff;
-    border: none;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    padding: 6px 20px;
-    margin-left: -10px;
-  }
+
   
   
 body{
-
-
     background-color: #fffbf7;
     /*background-image: url('https://image.freepik.com/vector-gratis/fondo-blanco-gris-brillante-lineas-onduladas_1017-25101.jpg');  */
 }
 
-
-p{
-    color: #8b8b8bcc
- }
-
-button{
-    background-color: #025157;
-
-    color : #fff;
+.secpromo {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  margin: 100px auto;
+  align-items: center;
 }
 
-
-.imagen1 { 
-  text-align: right;
- }
-
-.publicidad {
+.secpromo .publicidad {
   font-family: Helvetica;
   display: flex;
   flex-direction: column;
@@ -125,14 +93,13 @@ button{
   padding-top: 5%;
 }
 
-.publicidad > h2 {
+.secpromo .publicidad > h3 {
   font-family: "Alegreya", serif;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 30px;
   color: #025157;
 }
 
-.publicidad > p {
+.secpromo .publicidad > p {
   font-size: 16px;
   color: #343434;
   line-height: 1.5;
@@ -140,50 +107,49 @@ button{
  
 }
 
-.publicidad > form {
+.secpromo .publicidad > form {
   display: flex;
+  
 
 }
 
-.publicidad > form p {
+.secpromo .publicidad > form p {
   color: #025157;
-  margin-right: 18px;
+  margin-right: 10px;
 
  }
 
-  .publicidad  img {
-    width: 120px;
-    margin-top: 10px;
+ .secpromo .publicidad .email{
+  border: 1px solid #b6b6b6;
+  padding: 6px 20px;
+  width: 60%;
+  max-width: 250px;
+}
+
+ .secpromo .publicidad > form button {
+    color: white;
+    background-color: #025157;
+    padding: 12px 10px 12px 14px;
+    border: 0;
+    border-radius: 5px;
   }
 
+.secpromo .publicidad  img {
+  width: 120px;
+  margin-top: 10px;
+}
 
 
-  .secpromo {
-    display: flex;
-    width: 70%;
-    margin: 100px auto;
-    align-items: center;
-  }
-
-  .artvideo {
+.secpromo .artvideo {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-right: 5%;
-  }
+}
   
-  .artvideo img {
-    width: 120px;
+  .secpromo .artvideo img {
+    width: 150px;
     margin-top: 10px;
-  }
-
-
-  .secheader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #fffbf7;
   }
 
   .secgrowing {
