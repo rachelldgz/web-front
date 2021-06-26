@@ -1,16 +1,12 @@
-/* Reto 05 Cambia colores a Texto, Parrafo y Boton 
-   Fondo de pagina y Fondo de Boton */
-
-main {
-  margin-top: 285px;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.header {
-  margin: 10px 20px 0 20px;
-  font-size: 0;
-  line-height: 45%;
-  font-family: sans-serif;
+body {
+  background-color: rgb(177, 216, 209);
+  font-family: "Tahoma", sans-serif;
 }
 
 .secheader {
@@ -21,45 +17,54 @@ main {
   right: 0;
 }
 
+.header {
+  margin: 10px 10px 0 30px;
+  font-size: 0;
+  line-height: 45%;
+  font-family: "Verdana", sans-serif;
+  background-color: white;
+}
+
 .header>* {
   display: inline-block;
   font-size: 16px;
   vertical-align: middle;
   height: 100%;
-  line-height: 45px;
+  line-height: 40px;
 }
 
-.logo {
+.secheader .logo {
   width: 100%;
 }
 
-.navbar {
-  width: 70%;
+.secheader .navbar {
+  background-color: #fffbf7;
+  width: 65%;
   text-align: center;
-  color: #025157;
+  color: #025157
 }
 
-.menu-item {
+.secheader .navbar .menu-item {
   display: inline;
   margin: 0 25px 0 25px;
 }
 
-.actions {
-  width: 15%;
+.secheader .divactions {
+  width: 20%;
   text-align: left;
+  font-weight: 600;
   font-size: 14px;
 }
 
-.actions a {
-  color: #67b54b;
-}
-
-
-.actions>* {
+.divactions>* {
   margin: 0 10px 0 10px;
 }
 
-.actions button {
+.secheader .divactions a {
+  color: #67b54b;
+}
+
+.secheader .divactions button {
   color: white;
   background-color: #67b54b;
   padding: 12px 14px 12px 14px;
@@ -67,76 +72,134 @@ main {
   border-radius: 5px;
 }
 
-
-
-
-
-body {
-  background-color: #fffbf7;
-  /*background-image: url('https://image.freepik.com/vector-gratis/fondo-blanco-gris-brillante-lineas-onduladas_1017-25101.jpg');  */
+main {
+  margin-top: 285px;
+  text-align: center;
 }
+
+h1 {
+  color: #025157;
+  font-family: "Georgia", serif;
+  font-size: 60px;
+  margin-bottom: 24px;
+}
+
+h5 {
+  color: #303636;
+  font-family: "Constantia", serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+p {
+  color: #4d4a4acc;
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.form-iniciarseion {
+  margin-top: 10px;
+  height: 60px;
+}
+
+.form-iniciarseion input,
+button {
+  height: 100%;
+  border-radius: 8px;
+}
+
+.form-iniciarseion input {
+  border: 1px solid #575555;
+  padding: 10px 20px;
+  width: 70%;
+  max-width: 250px;
+  font-size: 18px;
+}
+
+.form-iniciarseion button {
+  background-color: #054646;
+  color: #fff;
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 10px 20px;
+  margin-left: -10px;
+  font-size: 16px;
+}
+
+figure {
+  margin-top: 32px;
+}
+
+.ventanas-matcha>img {
+  width: 70%;
+}
+
 
 .secpromo {
   display: flex;
-  width: 70%;
-  margin: auto;
+  width: 80%;
   margin: 100px auto;
   align-items: center;
+  background-color: white;
 }
 
 .secpromo .publicidad {
-  font-family: Helvetica;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: right;
-  padding-top: 5%;
 }
 
 .secpromo .publicidad>h3 {
-  font-family: "Alegreya", serif;
+  font-family: "Verdana", sans-serif;
   font-size: 30px;
   color: #025157;
 }
 
 .secpromo .publicidad>p {
   font-size: 16px;
-  color: #343434;
+  color: #807676;
   line-height: 1.5;
   margin-bottom: 20px;
+  margin-right: 30px;
+  font-family: "Helvetica", sans-serif;
 
 }
 
 .secpromo .publicidad>form {
   display: flex;
 
-
 }
 
 .secpromo .publicidad>form p {
-  color: #025157;
+  color: #505858cb;
   margin-right: 10px;
-
+  font-size: 13px;
+  text-align: left;
 }
 
 .secpromo .publicidad .email {
   border: 1px solid #b6b6b6;
-  padding: 6px 20px;
+  padding: 20px 20px;
   width: 60%;
   max-width: 250px;
+  text-align: left;
+  border-radius: 8px;
+  margin-left: 20px;
 }
 
 .secpromo .publicidad>form button {
   color: white;
-  background-color: #025157;
-  padding: 12px 10px 12px 14px;
-  border: 0;
-  border-radius: 5px;
+  background-color: #054646;
+  padding: 2px 10px 2px 6px;
+  border-radius: 8px;
+  margin-left: -10px;
 }
 
 .secpromo .publicidad img {
   width: 120px;
-  margin-top: 10px;
 }
 
 
@@ -144,162 +207,154 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-right: 5%;
+  padding: 6% 3% 4% 4%;
 }
 
 .secpromo .artvideo img {
-  width: 150px;
+  width: 100px;
   margin-top: 10px;
 }
 
-.features {
+.secfeatures {
   background-color: #025157;
-  padding: 5% 10%;
+  padding: 12% 12%;
   display: grid;
   grid-template: repeat(2, 330px) / repeat(2, 1fr);
-  /* grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 330px); 
-  /* grid-template: repeat(2, 1fr) / repeat(2, 330px); */
 }
 
-.features-art{
+.secfeatures .artfeatures {
   margin-bottom: 30px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color: #fff;
-  border: 1px solid #dadada;
+  border: 2px solid #dadada;
   border-radius: 5px;
   display: flex;
   align-items: center;
   overflow: hidden;
 }
 
-.features .features-art .features-div{
-  padding: 30px 20px 40px 40px;
+.secfeatures .artfeatures .divfeatures {
+  padding: 30px 40px 60px 40px;
   flex: 2;
 }
 
-.features .features-art .features-div > * {
-  margin-bottom: 1rem;
-  margin-top: 0;
+.secfeatures .artfeatures .divfeatures>* {
+  margin-bottom: 0rem;
+  margin-top: 20px;
 }
 
-.features .features .features-art .features-div img {
+.secfeatures .artfeatures .divfeatures img {
   width: 50px;
 }
 
-.features .features .features-art .features-div h3 {
-  font-size: 24px;
-  color: #343434;
+.secfeatures .artfeatures .divfeatures h3 {
+  font-size: 20px;
+  color: #292626;
   font-weight: 400;
+  text-align: left;
 }
 
-.features .features .features-art .features-div p {
-  font-size: 16px;
-  color: #7e7e7e;
+.secfeatures .artfeatures .divfeatures-div p {
+  font-size: 14px;
+  color: #756d6d;
   font-weight: 400;
+  text-align: justify;
 }
 
-.features .features .features-art .features-div a {
+.secfeatures .artfeatures .divfeatures a {
   font-size: 16px;
   color: #67b54b;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
 }
 
-.features .feature-art .features-imagen {
+.secfeatures .artfeatures .divfeatures-imagen {
   flex: 1;
   width: 40%;
-  position: relative;
-  right: -50px;
+  right: -40px;
   height: 80%;
 }
 
-.features .features-art .features-imagen figure,
-.features .features-art .features-imagen img {
+.secfeatures .artfeatures .divfeatures-imagen figure,
+.secfeatures .artfeatures .divfeatures-imagen img {
   margin-top: 0;
   height: 100%;
 }
 
-
-
-
-
-
 .secgrowing {
   background-color: #a1d683;
-  padding: 5% 15%;
+  padding: 10% 10%;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.success-stories .artgrowing {
+.secgrowing .artgrowing {
   flex: 2;
-  padding-right: 100px;
+  padding-right: 50px;
 }
 
-.secgrowing .artgrowing h2 {
-  font-family: "Alegreya", serif;
-  font-size: 51px;
+.secgrowing .artgrowing h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
   color: #025157;
 }
 
 .secgrowing .artgrowing p {
-  color: #343434;
-  font-size: 20px;
-  margin-bottom: 1rem;
+  color: #575454;
+  font-size: 18px;
+  margin-bottom: 2rem;
 }
 
 .secgrowing .artgrowing button {
-  font-size: 16px;
-  padding: 12px 12px 6px 12px;
+  font-size: 14px;
+  padding: 12px 12px 12px 12px;
   border-radius: 8px;
   height: 45px;
   font-weight: 600;
-  margin-left: 0;
   background-color: #025157;
   color: white;
-
+  text-align: center;
 }
 
 .secgrowing .artgrowing img {
-  width: 80%;
-  max-width: 80%;
-  margin-left: 0;
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0; 
 }
 
-.secgrowing .arteverly {
+.secgrowing .artcatalogo {
   flex: 1;
 }
 
-.secgrowing .arteverly {
-  margin-left: 10%;
-  max-width: 550px;
-  width: 80%;
+
+.secgrowing .artcatalogo {
+  margin-left: 5%;
+  max-width: 200%;
+  width: 100%;
   background-color: #fff;
   border-radius: 10px;
-
 }
 
-.secgrowing .arteverly .diveverly .img {
+.secgrowing .artcatalogo .divcatalogo img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  width: 80%;
-  max-width: 80%;
-
+  width: 115%;
+  max-width: 200%;
 }
 
-.secgrowing .arteverly .diveverly .figure {
+.secgrowing .artcatalogo .divcatalogo figure {
   margin-top: 0;
-  margin-right: 10%;
+  margin-right: 12%;
+  margin-left: 0;
 }
 
-.secgrowing .arteverly .diveverly {
+.secgrowing .artcatalogo .divcatalogo {
   position: relative;
 }
 
-.secgrowing .arteverly .divlogo {
+.secgrowing .artcatalogo .divlogo {
   position: absolute;
   bottom: -20px;
   right: 20px;
@@ -310,19 +365,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+} 
+
+.secgrowing .artcatalogo .divcatalogo-body,
+.secgrowing .artcatalogo .divcatalogo-footer {
+  padding: 30px;
 }
 
-.secgrowing .arteverly .divlogo img {
-  max-width: 75%;
-}
-
-
-.secgrowing .arteverly .divbody,
-.secgrowing .arteverly .divfooter {
-  padding: 25px;
-}
-
-.secgrowing .arteverly .divbody h4 {
+.secgrowing .artcatalogo .divcatalogo-body h4 {
   color: #025157;
   font-size: 18px;
   font-weight: 600;
@@ -330,41 +380,42 @@ body {
   margin-bottom: 12px;
 }
 
-.secgrowing .arteverly .divbody h3 {
-  font-size: 25px;
-  font-weight: 400;
+.secgrowing .artcatalogo .divcatalogo-body h3 {
+  font-size: 20px;
+  font-weight: 300;
   line-height: 30px;
   margin-bottom: 20px;
 }
 
-.secgrowing .arteverly .divbody .divresults {
+.secgrowing .artcatalogo .divcatalogo-body .divcatalogo-body2 {
   display: flex;
   align-items: center;
   color: #828282;
 }
 
-.secgrowing .arteverly .divbody .divresults img {
+.secgrowing .artcatalogo .divcatalogo-body .divcatalogo-body2 img {
   width: 26px;
   margin-right: 20px;
 }
 
-.secgrowing .arteverly .divbody .divresults p {
+.secgrowing .artcatalogo .divcatalogo-body .divcatalogo-body2 p {
   margin-top: 0;
 }
 
-.secgrowing .arteverly .divbody .divfooter {
+.secgrowing .artcatalogo .divcatalogo-footer {
   margin-bottom: 20px;
   background-color: unset;
   border-top: unset;
 }
 
-.secgrowing .arteverly .divbody .divfooter button {
+.secgrowing .artcatalogo .divcatalogo-footer button {
   display: block;
   margin-left: 0;
-  border-radius: 5px;
-  font-size: 13;
+  border-radius: 8px;
+  font-size: 16px;
   font-weight: 600;
-  padding: 12px 20px;
+  padding: 20px 20px;
   width: 100%;
   background-color: #025157;
+  color:white;
 }
