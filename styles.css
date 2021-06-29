@@ -537,6 +537,19 @@ figure {
   .capterra > img{
     width: 100%;
   }
+
+  .publicidad > form {
+    flex-direction: column;
+  }
+
+  .publicidad > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .publicidad > form > div > input {
+    width: 65%;
+  }
  } 
 
 /** dispositivos pequeños en vista landscape (horizontal) */
