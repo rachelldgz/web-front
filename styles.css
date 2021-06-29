@@ -538,18 +538,39 @@ figure {
     width: 100%;
   }
 
-  .publicidad > form {
+  .secpromo {
     flex-direction: column;
+    max-width: 90%;
   }
 
-  .publicidad > form > div {
-    height: 50px;
+  .artvideo > video {
+    width: 100%;
+  }
+
+  .publicidad {
     margin-top: 10px;
   }
 
-  .publicidad > form > div > input {
-    width: 65%;
+  .publicidad > h3 {
+    font-size: 25px;
+    line-height: 1.2;
   }
+
+  .secfeatures {
+    grid-template: repeat(4, 1fr) / 1fr;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .divfeatures-imagen {
+    display: none;
+  }
+
+
+
+
+
+
  } 
 
 /** dispositivos pequeños en vista landscape (horizontal) */
