@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(177, 216, 209);
+  background-color: rgb(255, 255, 255);
   font-family: "Tahoma", sans-serif;
 }
 
@@ -419,7 +419,7 @@ figure {
   text-align: center;
 }
 
-.secMatchaWok  h3 {
+.secMatchaWok h3 {
   color: #025157;
   font-size: 50px;
   line-height: 60px;
@@ -428,7 +428,7 @@ figure {
   margin-bottom: 8px;
 }
 
-.secMatchaWok  p {
+.secMatchaWok p {
   max-width: 60%;
   color: slategrey;
   font-size: 18px;
@@ -438,12 +438,12 @@ figure {
   margin-bottom: 16px;
 }
 
-.secMatchaWok  a {
+.secMatchaWok a {
   color: rgb(91, 190, 107);
   text-decoration: none;
 }
 
-.secMatchaWok  button {
+.secMatchaWok button {
   border-radius: 8px;
   font-size: 14px;
   font-weight: 400;
@@ -521,9 +521,32 @@ figure {
   text-decoration: none;
 }
 
-
+/** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  main {
-    margin-top: 130px;
+  .navbar,
+  .divactions {
+    display: none;
   }
- }
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  main{
+    margin-top: 150px;
+  }
+  .capterra > img{
+    width: 100%;
+  }
+ } 
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {}
