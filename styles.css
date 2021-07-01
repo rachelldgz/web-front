@@ -9,13 +9,13 @@ body {
   font-family: "Tahoma", sans-serif;
 }
 
-.secheader {
+/* .secheader {
   position: fixed;
   background-color: white;
   top: 0;
   left: 0;
   right: 0;
-}
+} */
 
 .header {
   margin: 10px 10px 0 30px;
@@ -523,10 +523,10 @@ figure {
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  .navbar,
+  /* .navbar,
   .divactions {
     display: none;
-  }
+  } */
   h1 {
     font-size: 30px;
     text-align: center;
@@ -565,13 +565,11 @@ figure {
   .divfeatures-imagen {
     display: none;
   }
-
-
-
-
-
-
  } 
+
+ .card-group{
+   margin-top: 50px;
+ }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
 @media (min-width: 576px) and (max-width: 767px) {}
