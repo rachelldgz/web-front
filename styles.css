@@ -9,13 +9,10 @@ body {
   font-family: "Tahoma", sans-serif;
 }
 
-/* .secheader {
-  position: fixed;
-  background-color: white;
-  top: 0;
-  left: 0;
-  right: 0;
-} */
+button {
+  color: #fff;
+  background-color: #025157;
+}
 
 .header {
   margin: 10px 10px 0 30px;
@@ -64,7 +61,7 @@ body {
   color: #67b54b;
 }
 
-.secheader .divactions button {
+.Start {
   color: white;
   background-color: #67b54b;
   padding: 12px 14px 12px 14px;
@@ -457,45 +454,11 @@ figure {
   margin-top: 6px;
 }
 
-
-.secMatchaWok .divMatchaInformacion {
-  margin-top: 70px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.secMatchaWok .divMatchaInformacion .artMatchaInformacion {
-  background-color: #fff;
-  border: 1px solid #9b9595;
-  border-radius: 6px;
-  margin-right: 20px;
-  text-align: left;
-  padding-left: 4%;
-}
-
-.secMatchaWok .divMatchaInformacion .artMatchaInformacion .divMatcha-Imagen {
-  position: relative;
-  height: 350px;
-
-}
-
-.secMatchaWok .divMatchaInformacion .artMatchaInformacion .divMatcha-Imagen .Matcha-icon {
-  position: absolute;
-  top: 25px;
-  left: 25px;
-  width: 21px;
-}
-
-.secMatchaWok .divMatchaInformacion .artMatchaInformacion .divMatcha-Imagen .Matcha-imagen {
-  width: 100%;
-  height: 100%;
-}
-
-.secMatchaWok .divMatchaInformacion .artMatchaInformacion .divMatcha-Body {
+.secMatchaWok .card-body  {
   padding: 25px;
 }
 
-.secMatchaWok .divMatchaInformacion .artMatchaInformacion .divMatcha-Body h4 {
+.secMatchaWok .card-body h5 {
   color: #025157;
   font-size: 30px;
   line-height: 35px;
@@ -504,7 +467,7 @@ figure {
   text-align: center;
 }
 
-.secMatchaWok .divMatchaInformacion .artMatchaInformacion .divMatcha-Body p {
+.secMatchaWok .card-body  p {
   color: slategrey;
   font-size: 18px;
   font-family: "Tahoma", sans-serif;
@@ -513,7 +476,7 @@ figure {
   margin-bottom: 20px;
 }
 
-.secMatchaWok .divMatchaInformacion .artMatchaInformacion .divMatcha-Body a {
+.secMatchaWok .card-body  a {
   font-size: 14px;
   line-height: 1.4;
   color: #67b54b;

@@ -1,0 +1,22 @@
+{
+  "name": "webfront",
+  "version": "1.0.0",
+  "description": "git init",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachelldgz/web-front.git"
+  },
+  "author": "Rachell Dguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rachelldgz/web-front/issues"
+  },
+  "homepage": "https://github.com/rachelldgz/web-front#readme",
+  "dependencies": {
+    "sass": "^1.35.1"
+  }
+}
