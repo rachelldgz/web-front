@@ -18,6 +18,7 @@ body {
 
 .navbar-light .nav-item .nav-link {
   color: #025157;
+  margin: 0 20px 0 20px;
 }
 
 .navbar-light .navbar-toggler {
@@ -74,4 +75,21 @@ h1 {
   max-width: 680px;
   margin: 0 auto;
   margin-bottom: 72px;
+}
+
+.form-inline a {
+  color: #67b54b;
+  margin-right: 10px;
+}
+
+.form-inline button {
+  color: white;
+  background-color: #67b54b;
+  border: 0;
+  border-radius: 5px;
+  padding: 6px 7px 6px 7px;
+}
+
+.form-inline {
+  margin-right: 50px;
 }
